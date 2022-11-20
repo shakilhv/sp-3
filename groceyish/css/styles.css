@@ -1,0 +1,14 @@
+.top-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 120px;
+}
+
+.wishlist-wrapper,
+.my-cart-wrapper,
+.profile-wrapper {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
