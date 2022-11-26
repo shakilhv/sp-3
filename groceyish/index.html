@@ -12,27 +12,32 @@
 	<body>
 		<section class="top-nav">
 			<img src="./img/Logo.png" alt="site logo" />
-			<div>
+			<div class="search-bar">
 				<select>
 					<option>All Categories</option>
 					<option>Food</option>
 					<option>Home & Living</option>
 				</select>
-				<input type="text" />
+				<div class="vertical-bar"></div>
+				<input
+					type="text"
+					class="search-input"
+					placeholder="Search for an item"
+				/>
 				<button>
 					<i class="fa-solid fa-magnifying-glass"></i>
 				</button>
 			</div>
 			<div class="wishlist-wrapper">
-				<div>
+				<div class="icon">
 					<i class="fa-regular fa-heart"></i>
 					<span class="badge">4</span>
 				</div>
 				<p>Wishlist</p>
 			</div>
 			<div class="my-cart-wrapper">
-				<div>
-					<i class="fa-regular fa-heart"></i>
+				<div class="icon">
+					<i class="fa-solid fa-cart-shopping"></i>
 					<span class="badge">3</span>
 				</div>
 				<div>
